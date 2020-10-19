@@ -1,0 +1,184 @@
+body {
+    font-family: 'Merriweather', serif;
+    color:#2F5259
+}
+/*******Grid********/
+.full-width {
+    width: 1200px;
+    margin: 0 ;
+    overflow: auto;
+}
+.half-width {
+    width: 599px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/*****Nav****/
+nav {
+    float: right;
+    padding:15px 25px; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    color:#307B8C;
+    text-decoration: none;
+    text-align: right;
+    padding-left: 20px;   
+}
+
+/******intro*****/
+#intro {
+    height: 600px ;
+    background: url('../img/blue-endless-ocean.jpg') no-repeat, center;
+    background-size: cover;
+    background-position: center;
+
+}
+#intro h1 {
+    font-family: 'Lora' serif;
+    text-align: center;
+    font-size: 60px;
+    color:#307B8C;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+}   
+
+/**********Portfolio*****/
+#portfolio {
+    height: 1450px;
+    background:#d0E9f2;
+    overflow:auto;
+    
+}
+#portfolio h2 {
+    text-align: center;
+    margin:0;
+    padding-top:70px;
+    padding-bottom:50px ;
+}
+
+.recipe-left{
+    width: 580px;
+    height: auto;
+    float: left;
+    padding: 20px 50px 0px 100px;
+}
+.recipe-right {
+    width: 440px;
+    height: 400px;
+    float: left;  
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.rogue-left {
+    width: 580px;
+    height: auto;
+    float: left;
+    padding: 20px 50px 0px 100px;
+
+}
+
+.rogue-right {
+    width: 440px;
+    height: 400px;
+    float: left;  
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.jubilee-left {
+    width: 580px;
+    height: auto;
+    float: left;
+    padding: 20px 50px 0px 100px;
+
+}
+.jubilee-right {
+    width: 440px;
+    height: 400px;
+    float: left;  
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+
+/**********About********/
+#about {
+    background:#8fcbd9;
+    clear: both;
+}
+#about h2{
+    text-align: center;
+    margin:0;
+    padding-top:70px;
+    padding-bottom:50px ;
+}
+ #about img {
+    border:2px #d0E9f2;
+    width: 250px;
+    padding-left: 40px;
+}
+.about-photo{
+    width: 400px;
+    float: left;
+    background: inherit;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.about-text{
+    width: 548px;
+    float: left;
+    background: inherit ;
+    height: 232px;
+    padding-left: 50px;
+}
+
+/***********Contact*********/
+#contact {
+    background: #d0E9f2;
+    overflow: auto;
+    clear:both;
+
+}
+#contact h2 {
+    text-align: center;
+    margin:0;
+    padding-top:70px;
+    padding-bottom:50px ;
+    
+}
+.contact-column-one {
+    width: 300px;
+    float: left;
+    padding:50px;
+
+}
+.contact-column-two {
+    width: 300px;
+    float: left;
+    padding:50px;
+
+}
+.contact-column-three {
+    width: 300px;
+    float: left;
+    padding:50px;
+}
+ .contact-column-two  img{
+    width: 50px;
+    float: left;
+    padding: 5px;
+
+}
+.contact img  {
+    width: 100px;
+    clear: both;
+    padding: 5px;
+}
